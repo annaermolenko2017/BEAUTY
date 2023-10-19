@@ -1,0 +1,128 @@
+$text-color-black: #000000;
+$text-color-dark: #727272;
+$text-color-light: #FFF;
+$text-color-a-btn: #34547A;
+$bg-color-grey: #EEEFF1;
+$bg-color-light: #F9F9F9;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color-black;
+}
+.header {
+    background-color: $bg-color-grey;
+}
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header__nav {
+    padding: 79px 0 151px 0;
+}
+.nav-list {
+    display: flex;
+    .nav-list__item {
+        margin-right: 42px;
+        .nav-list__link {
+            color: $text-color-black;
+            text-transform: uppercase;
+        }
+        .nav-list__link_active {
+            color: $text-color-a-btn;
+            font-weight: 500;
+        }
+    }
+}
+.header-content {
+    padding-bottom: 141px;
+    .header-content__title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 79px;
+        margin-bottom: 65px;
+    }
+    .header-content__text {
+        color: $text-color-dark;
+        line-height: 27px;
+    }
+    .header-content__btn {
+        color: $text-color-light;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+    }
+}
+button {
+    width: 225px;
+    height: 65px;
+    background-color: $text-color-a-btn;
+    margin-top: 65px;
+}
+.main {
+    background-color: $bg-color-light;
+}
+.main-box {
+    padding: 112px 0 100px 0;
+}
+.main-desc {
+    text-align: center;
+    .main-desc__title {
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .main-desc__text {
+        color: $text-color-dark;
+        line-height: 27px;
+    }
+}
+.main-container,
+.footer {
+    background-color: $text-color-a-btn;
+}
+.main-project {
+    display: flex;
+    justify-content: space-between;
+    .project__main-project {
+        padding: 100px 0;
+        .project__desc {
+            float: right;
+            margin-left: 20px;
+            color: $text-color-light; 
+            .desc__number {
+                font-size: 21px;
+                font-weight: 500;
+                margin-top: 2px;
+                margin-bottom: 5px;
+            }
+            .desc__text {
+                line-height: 27px;
+            }        
+        }
+    }
+}
+.main-box-bottom {
+    padding: 100px 0 57px 0;
+}
+.my-video {
+    padding-bottom: 100px;
+}
+iframe {
+    width: 1110px;
+    height: 600px;
+}
+.footer-items {
+    padding: 50px 0;
+    color: $text-color-light;
+    .footer-items__title {
+        font-size: 21px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .footer-items__text {
+        font-size: 13px;
+    }
+}

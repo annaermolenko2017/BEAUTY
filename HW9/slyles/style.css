@@ -1,0 +1,136 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.header {
+  background-color: #EEEFF1;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  padding: 79px 0 151px 0;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list .nav-list__item {
+  margin-right: 42px;
+}
+.nav-list .nav-list__item .nav-list__link {
+  color: #000000;
+  text-transform: uppercase;
+}
+.nav-list .nav-list__item .nav-list__link_active {
+  color: #34547A;
+  font-weight: 500;
+}
+
+.header-content {
+  padding-bottom: 141px;
+}
+.header-content .header-content__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 79px;
+  margin-bottom: 65px;
+}
+.header-content .header-content__text {
+  color: #727272;
+  line-height: 27px;
+}
+.header-content .header-content__btn {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+button {
+  width: 225px;
+  height: 65px;
+  background-color: #34547A;
+  margin-top: 65px;
+}
+
+.main {
+  background-color: #F9F9F9;
+}
+
+.main-box {
+  padding: 112px 0 100px 0;
+}
+
+.main-desc {
+  text-align: center;
+}
+.main-desc .main-desc__title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.main-desc .main-desc__text {
+  color: #727272;
+  line-height: 27px;
+}
+
+.main-container,
+.footer {
+  background-color: #34547A;
+}
+
+.main-project {
+  display: flex;
+  justify-content: space-between;
+}
+.main-project .project__main-project {
+  padding: 100px 0;
+}
+.main-project .project__main-project .project__desc {
+  float: right;
+  margin-left: 20px;
+  color: #FFF;
+}
+.main-project .project__main-project .project__desc .desc__number {
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+.main-project .project__main-project .project__desc .desc__text {
+  line-height: 27px;
+}
+
+.main-box-bottom {
+  padding: 100px 0 57px 0;
+}
+
+.my-video {
+  padding-bottom: 100px;
+}
+
+iframe {
+  width: 1110px;
+  height: 600px;
+}
+
+.footer-items {
+  padding: 50px 0;
+  color: #FFF;
+}
+.footer-items .footer-items__title {
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer-items .footer-items__text {
+  font-size: 13px;
+}/*# sourceMappingURL=style.css.map */
