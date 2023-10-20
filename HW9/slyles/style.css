@@ -14,25 +14,25 @@ body {
   margin: 0 auto;
 }
 
-.header__nav {
+.header-nav {
   padding: 79px 0 151px 0;
 }
 
-.nav-list {
+.header-nav__list {
   display: flex;
   position: relative;
 }
-.nav-list .nav-list__item {
+.header-nav__list .header-nav__item {
   display: flex;
   align-items: center;
   margin-right: 60px;
   margin-left: 25px;
 }
-.nav-list .nav-list__item .nav-list__link {
+.header-nav__list .header-nav__item .header-nav__link {
   color: #000000;
   text-transform: uppercase;
 }
-.nav-list .nav-list__item .nav-list__link_active {
+.header-nav__list .header-nav__item .header-nav__link_active {
   color: #34547A;
   font-weight: 500;
 }
@@ -136,21 +136,21 @@ button {
   display: flex;
   justify-content: space-between;
 }
-.main-project .project__main-project {
+.main-project .main-project__project {
   padding: 100px 0;
 }
-.main-project .project__main-project .project__desc {
+.main-project .main-project__project .main-project__desc {
   float: right;
   margin-left: 20px;
   color: #FFF;
 }
-.main-project .project__main-project .project__desc .desc__number {
+.main-project .main-project__project .main-project__desc .main-project__number {
   font-size: 21px;
   font-weight: 500;
   margin-top: 2px;
   margin-bottom: 5px;
 }
-.main-project .project__main-project .project__desc .desc__text {
+.main-project .main-project__project .main-project__desc .main-project__text {
   line-height: 27px;
 }
 
