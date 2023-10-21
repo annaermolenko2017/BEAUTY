@@ -37,42 +37,42 @@ body {
   font-weight: 500;
 }
 
-.item_homepage::before,
-.item_about-author::before,
-.item_works::before,
-.item_process::before,
-.item_contacts::before {
+.header-nav__item_homepage::before,
+.header-nav__item_about-author::before,
+.header-nav__item_works::before,
+.header-nav__item_process::before,
+.header-nav__item_contacts::before {
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
   position: absolute;
 }
 
-.item_homepage::before {
+.header-nav__item_homepage::before {
   content: "";
   left: 0px;
   background-image: url(../img/homepage.png);
 }
 
-.item_about-author::before {
+.header-nav__item_about-author::before {
   content: "";
   left: 167px;
   background-image: url(../img/about\ author.png);
 }
 
-.item_works::before {
+.header-nav__item_works::before {
   content: "";
   left: 370px;
   background-image: url(../img/works.png);
 }
 
-.item_process::before {
+.header-nav__item_process::before {
   content: "";
   left: 511px;
   background-image: url(../img/process.png);
 }
 
-.item_contacts::before {
+.header-nav__item_contacts::before {
   content: "";
   left: 665px;
   background-image: url(../img/contacts.png);
