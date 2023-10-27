@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+}
+.grid-container {
+    height: 300px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-areas:
+        "item1 item1 item1 item1 item2 item2"
+        "item3 item3 item3 item4 item2 item2"
+        "item5 item6 item7 item4 item2 item2"
+        "item8 item6 item7 item4 item9 item9";
+    gap: 5px;    
+}
+.item1 {
+    background-color: rgb(244, 194, 176);
+    grid-area: item1;
+}
+.item2 {
+    background-color: rgb(244, 194, 176);
+    grid-area: item2;
+}
+.item3 {
+    background-color: rgb(230, 68, 178);
+    grid-area: item3;
+}
+.item4 {
+    background-color: rgb(56, 200, 92);
+    grid-area: item4;
+}
+.item5 {
+    background-color: rgb(250, 151, 46);
+    grid-area: item5;
+}
+.item6 {
+    background-color: rgb(230, 68, 178);
+    grid-area: item6;
+}
+.item7 {
+    background-color: rgb(250, 151, 46);
+    grid-area: item7;
+}
+.item8 {
+    background-color: rgb(56, 200, 92);
+    grid-area: item8;
+}
+.item9 {
+    background-color: rgb(53, 198, 89);
+    grid-area: item9;
+}
