@@ -6,7 +6,7 @@ body {
     height: 300px;
     padding: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
         "item1 item1 item1 item1 item2 item2"
         "item3 item3 item3 item4 item2 item2"
@@ -16,7 +16,7 @@ body {
 }
 @media screen and (max-width: 850px) {
     .grid-container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
         grid-template-areas:
             "item1 item1 item1 item1"
@@ -29,7 +29,7 @@ body {
 }
 @media screen and (max-width: 450px) {
     .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         grid-template-areas:
             "item1 item1 item1"
